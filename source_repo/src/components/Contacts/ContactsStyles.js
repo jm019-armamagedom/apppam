@@ -1,0 +1,71 @@
+import { StyleSheet } from "react-native";
+
+const styles = StyleSheet.create({
+    container:{
+        flex:1,
+        padding:20,
+        backgroundColor:'#fff',
+    },
+    searchContainer:{
+        flexDirection:'row',
+        alignItems:'center',
+        backgroundColor:'#F0FDF4',
+        borderRadius:8,
+        paddingHorizontal:12,
+        marginBottom:16,
+    },
+    searchIcon:{
+        marginRight:8,
+    },
+    searchInput:{
+        flex:1,
+        paddingVertical:10,
+        fontSize:16,
+        color:'#333',
+    },
+    listContainer:{
+        flex:1,
+    },
+    list:{
+        paddingBottom:20,
+    },
+    loadingContainer:{
+        flex:1,
+        justifyContent:'center',
+        alignItems:'center',
+        paddingTop:40,
+    },
+    emptyText:{
+        fontSize:16,
+        color:'#999',
+        textAlign:'center',
+    },
+    contactItem:{
+        padding:15,
+        borderBottomWidth:1,
+        borderColor:'#eee',
+    },
+    contactName:{
+        fontSize:18,
+        fontWeight:'bold',
+    },
+    contactDetail:{
+        fontSize:14,
+        color:'#555',
+        marginTop:5,
+    },
+    contactDetailContainer:{
+        flexDirection: 'row',
+        alignItems:'center',
+        marginTop:5,
+    },
+    icon:{
+        marginRight:10,
+    },
+    footerLoader:{
+        paddingVertical:20,
+        alignItems:'center',
+    },
+});
+
+export default styles;
