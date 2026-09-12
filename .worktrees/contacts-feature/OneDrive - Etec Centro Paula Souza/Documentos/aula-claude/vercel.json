@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/api/tmdb/:match*", "destination": "/api/tmdb/index.ts" }
+  ],
+  "functions": {
+    "api/tmdb/index.ts": { "memory": 1024, "maxDuration": 10 }
+  }
+}

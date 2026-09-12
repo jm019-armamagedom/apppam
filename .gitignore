@@ -1,0 +1,7 @@
+# Expo and node artifacts
+node_modules/
+.expo/
+.expoweb/
+.expo-*
+.DS_Store
+*.log
